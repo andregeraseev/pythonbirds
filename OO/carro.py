@@ -139,9 +139,7 @@ class Direcao():
 
 
 class Carro(Direcao,Motor):
-    def __init__(self):
-        self.motor = Motor()
-        self.direcao = Direcao()
+    pass
 
 if __name__=='__main__':
     # carro = Carro()
